@@ -7,7 +7,7 @@ def reverse_each_word(string)
      if string_array.First
      rev_string = "#{rev_word} "
      #solve for the first word or fo rhte last word
-    else 
+    else
      rev_string = "#{rev_string} #{rev_word}"
     end
      puts rev_string

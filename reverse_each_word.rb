@@ -6,7 +6,7 @@ def reverse_each_word(string)
      rev_word = word.reverse
      rev_string = "#{rev_string} #{rev_word}"
      puts rev_string
-binding.pry
+#binding.pry
    end
    return rev_string
 end

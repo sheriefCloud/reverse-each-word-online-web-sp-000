@@ -4,7 +4,7 @@ def reverse_each_word(string)
      rev_string = ""
    string_array.collect do  |word|
      rev_word = word.reverse
-     if string_array.First
+     if string_array.first
      rev_string = "#{rev_word} "
      #solve for the first word or fo rhte last word
     else
